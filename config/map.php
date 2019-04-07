@@ -4330,7 +4330,7 @@ vc_map( array(
             "heading" => "Title",
             "holder" => "h3",
             "param_name" => "title",
-            "value" => "Title",
+            "value" => "Region name",
             "description" => "Title of this region"
 		),
         array(
@@ -4338,8 +4338,8 @@ vc_map( array(
             "holder" => "div",
             "heading" => "Text",
             "param_name" => "content",
-            "value" => "I'm hello world",
-            "description" => "Enter your content."
+            "value" => "Description",
+            "description" => "Enter your content. HTML is allowed"
         ),
 		array(
 			'type' => 'attach_image',
@@ -4368,16 +4368,16 @@ vc_map( array(
             "heading" => "Title",
             "holder" => "h3",
             "param_name" => "title",
-            "value" => "Title",
-            "description" => "Title of this region"
+            "value" => "Appellation name",
+            "description" => "Title of this appellation"
 		),
         array(
             "type" => "textarea_html",
             "holder" => "div",
             "heading" => "Text",
             "param_name" => "content",
-            "value" => "I'm hello world",
-            "description" => "Enter your content."
+            "value" => "Description",
+            "description" => "Enter your content. HTML is allowed"
         ),
 		array(
 			'type' => 'textfield',
@@ -4388,3 +4388,47 @@ vc_map( array(
     )
 ) );
 
+vc_map( array(
+    "base"		=> "custom_producteur",
+    "name"		=> "A Producteur",
+	'category' => "Bamboo",
+	"icon"      => "icon-wpb-row",
+    "params"	=> array(
+        array(
+            "type" => "textfield",
+            "heading" => "Title",
+            "holder" => "h3",
+            "param_name" => "title",
+            "value" => "Producteur name",
+            "description" => "Title of this producteur"
+		),
+        array(
+            "type" => "textarea_html",
+            "holder" => "div",
+            "heading" => "Text",
+            "param_name" => "content",
+            "value" => "Producteur description",
+            "description" => "Enter your content. HTML is allowed"
+        ),
+		array(
+			'type' => 'attach_image',
+			'heading' => $vc_main->l('Image'),
+			'param_name' => 'image',
+			'value' => '',
+			'description' => $vc_main->l('Select image from media library.')
+		),
+		array(
+			'type' => 'textfield',
+			'heading' => $vc_main->l('URL (Link)'),
+			'param_name' => 'link',
+			'description' => $vc_main->l('Button link.')
+		),
+    )
+) );
+
+vc_map( array(
+    "base"		=> "custom_producteur_filter",
+    "name"		=> "Producteur Filter",
+	'category' => "Bamboo",
+	"icon"      => "icon-wpb-row"
+) );

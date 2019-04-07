@@ -4007,3 +4007,27 @@ a.blue-btn:hover {
 .nopadding .vc_column_container {
     padding: 0;
 }
+.bamboo.a-producteur {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.bamboo.a-producteur h4.wpb_toggle {
+  text-transform: uppercase;
+  color: #222456;
+  background-position: right !important;
+  padding-left: 15px !important;
+}
+.bamboo.a-producteur .wpb_toggle_content {
+  padding: 0;
+}
+.bamboo.a-producteur img {
+  width: 100%;
+}
+.bamboo.a-producteur .orange-link {
+  color: #DDA00C;
+  font-weight: bold;
+}
+.bamboo.a-producteur .last_toggle_el_margin {
+  display: none;
+}
