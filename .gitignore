@@ -1,0 +1,7 @@
+uploads/
+config.xml
+config_fr.xml
+controllers/admin/AdminVcImagesController - Copy.php
+classes/vccontentanywhere - Copy.php
+include/templates/params/loop/templates - Copy.html
+views/templates/admin/vccontentanywhere/helpers/form/form - Copy.tpl
