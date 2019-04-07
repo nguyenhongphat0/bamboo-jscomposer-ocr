@@ -4207,3 +4207,178 @@ function getVcShared( $asset = '' ) {
 			break;
 	}
 }
+
+
+vc_map( array(
+    "base"		=> "my_hello_world",
+    "name"		=> "Hello World",
+    "class"		=> "",
+    "icon"      => "icon-heart",
+    "params"	=> array(
+        array(
+            "type" => "textfield",
+            "holder" => "h3",
+            "heading" => "Foo attribute",
+            "param_name" => "foo",
+            "value" => "I'm foo attribute",
+            "description" => "Enter foo value."
+        ),
+        array(
+            "type" => "textarea_html",
+            "holder" => "div",
+            "heading" => "Text",
+            "param_name" => "content",
+            "value" => "I'm hello world",
+            "description" => "Enter your content."
+        ),
+        array(
+            "type" => "dropdown",
+            "heading" => "Drop down example",
+            "param_name" => "my_dropdown",
+            "value" => array(1, 2, "three"),
+            "description" => "One, two or three?"
+        ),
+    )
+) );
+
+vc_map( array(
+    "base"		=> "custom_button",
+    "name"		=> "Custom Button that load \$_GET param",
+    "class"		=> "",
+    "icon"      => "icon-heart",
+    "params"	=> array(
+        array(
+            "type" => "textfield",
+            "holder" => "h3",
+            "heading" => "Foo attribute",
+            "param_name" => "foo",
+            "value" => "I'm foo attribute",
+            "description" => "Enter foo value."
+        ),
+        array(
+            "type" => "textarea_html",
+            "holder" => "div",
+            "heading" => "Text",
+            "param_name" => "content",
+            "value" => "I'm hello world",
+            "description" => "Enter your content."
+        ),
+        array(
+            "type" => "dropdown",
+            "heading" => "Drop down example",
+            "param_name" => "my_dropdown",
+            "value" => array(1, 2, "three"),
+            "description" => "One, two or three?"
+        ),
+		array(
+			'type' => 'attach_image',
+			'heading' => $vc_main->l('Image'),
+			'param_name' => 'image',
+			'value' => '',
+			'description' => $vc_main->l('Select image from media library.')
+		),
+    )
+) );
+
+
+vc_map( array(
+    "base"		=> "custom_text_over_image",
+    "name"		=> "Custom text over image block",
+	'category' => "Bamboo",
+    "icon"      => "icon-wpb-row",
+    "params"	=> array(
+        array(
+            "type" => "textfield",
+            "holder" => "h3",
+            "heading" => "Heading",
+            "param_name" => "heading",
+            "value" => "Heading",
+            "description" => "Head for this block"
+        ),
+        array(
+            "type" => "textarea_html",
+            "holder" => "div",
+            "heading" => "Text",
+            "param_name" => "content",
+            "value" => "I'm hello world",
+            "description" => "Enter your content."
+        ),
+		array(
+			'type' => 'attach_image',
+			'heading' => $vc_main->l('Image'),
+			'param_name' => 'image',
+			'value' => '',
+			'description' => $vc_main->l('Select image from media library.')
+		),
+    )
+) );
+
+vc_map( array(
+    "base"		=> "custom_region",
+    "name"		=> "A Region",
+	'category' => "Bamboo",
+	"icon"      => "icon-wpb-row",
+    "params"	=> array(
+        array(
+            "type" => "textfield",
+            "heading" => "Title",
+            "holder" => "h3",
+            "param_name" => "title",
+            "value" => "Title",
+            "description" => "Title of this region"
+		),
+        array(
+            "type" => "textarea_html",
+            "holder" => "div",
+            "heading" => "Text",
+            "param_name" => "content",
+            "value" => "I'm hello world",
+            "description" => "Enter your content."
+        ),
+		array(
+			'type' => 'attach_image',
+			'heading' => $vc_main->l('Image'),
+			'param_name' => 'image',
+			'value' => '',
+			'description' => $vc_main->l('Select image from media library.')
+		),
+		array(
+			'type' => 'textfield',
+			'heading' => $vc_main->l('URL (Link)'),
+			'param_name' => 'link',
+			'description' => $vc_main->l('Button link.')
+		),
+    )
+) );
+
+vc_map( array(
+    "base"		=> "custom_appellation",
+    "name"		=> "An Appellation",
+	'category' => "Bamboo",
+	"icon"      => "icon-wpb-row",
+    "params"	=> array(
+        array(
+            "type" => "textfield",
+            "heading" => "Title",
+            "holder" => "h3",
+            "param_name" => "title",
+            "value" => "Title",
+            "description" => "Title of this region"
+		),
+        array(
+            "type" => "textarea_html",
+            "holder" => "div",
+            "heading" => "Text",
+            "param_name" => "content",
+            "value" => "I'm hello world",
+            "description" => "Enter your content."
+        ),
+		array(
+			'type' => 'textfield',
+			'heading' => $vc_main->l('URL (Link)'),
+			'param_name' => 'link',
+			'description' => $vc_main->l('Button link.')
+		),
+    )
+) );
+

@@ -3934,3 +3934,70 @@ body.vc_frontoffice#cms #center_column h3.wpb_accordion_header:not(.ui-accordion
 .wpb_row .wpb_row {
     clear: none;
 }
+/* OCR css simulator */
+.tttab-desc {
+    font: 52px/66px "Great Vibes", sans-serif;
+    color: #ad7b4f;
+    position: relative;
+    text-transform: capitalize;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+/* Bamboo's custom elements */
+.bamboo.overlay img {
+    width: 100%;
+}
+.bamboo.text-over-image .content {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+.bamboo.a-region .content {
+    width: 100%;
+    padding: 50px;
+    color: white;
+    position: absolute;
+}
+.bamboo.a-region .content p {
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.bamboo.an-appellation .content {
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 50px 20px;
+}
+.bamboo.an-appellation .content:hover {
+    background-color: #222456;
+    color: white;
+    opacity: 0.9;
+}
+.bamboo.an-appellation .content p {
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.bamboo.an-appellation .content:hover p {
+    color: white;
+}
+.bamboo.an-appellation .content:hover a.blue-btn {
+    background: #DDA00C;
+}
+a.blue-btn {
+    background: #222456 none repeat scroll 0 0;
+    border: 1px solid #222456;
+        border-top-color: rgb(34, 36, 86);
+        border-right-color: rgb(34, 36, 86);
+        border-bottom-color: rgb(34, 36, 86);
+        border-left-color: rgb(34, 36, 86);
+    color: #ffffff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+a.blue-btn:hover {
+    background: #ad7b4f none repeat scroll 0 0;
+    border-color: #ad7b4f;
+}
