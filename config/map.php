@@ -4310,6 +4310,12 @@ vc_map( array(
 			'value' => '',
 			'description' => $vc_main->l('Select image from media library.')
 		),
+        array(
+            "type" => "dropdown",
+            "heading" => "Background repeat direction",
+            "param_name" => "direction",
+            "value" => array("Horizontal", "Vertical")
+		),
     )
 ) );
 
