@@ -4010,7 +4010,7 @@ a.blue-btn:hover {
 .bamboo.a-producteur {
   background-color: #f0f0f0;
   padding: 20px;
-  margin-bottom: 10px;
+  margin-top: 10px;
 }
 .bamboo.a-producteur h4.wpb_toggle {
   text-transform: uppercase;
@@ -4023,6 +4023,7 @@ a.blue-btn:hover {
 }
 .bamboo.a-producteur img {
   width: 100%;
+  margin-bottom: 10px;
 }
 .bamboo.a-producteur .orange-link {
   color: #DDA00C;

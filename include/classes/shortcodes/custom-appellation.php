@@ -14,7 +14,7 @@ class WPBakeryShortCode_custom_appellation extends WPBakeryShortCode {
             $output .= '<div class="content">';
 	        $output .= '<h1>' . $title . '</h1>';
             $output .= wpb_js_remove_wpautop($content, true);
-	        $output .= '<a class="blue-btn" href="'. $link .'">Read more</a>';
+	        $output .= '<a class="blue-btn" href="'. $link .'">En savor plus</a>';
             $output .= '</div>';
         $output .= '</div>';
 

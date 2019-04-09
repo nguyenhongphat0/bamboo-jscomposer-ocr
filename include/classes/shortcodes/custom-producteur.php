@@ -9,7 +9,7 @@ class WPBakeryShortCode_custom_producteur extends WPBakeryShortCode {
 
         $img = wpb_getImageBySize( array( 'attach_id' => $atts['image'] ) );
 
-        $output = '<div class="a-producteur wpb_wrapper bamboo" data-name="' . $title . '">
+        $output = '<div class="a-producteur wpb_wrapper bamboo" data-name="' . $title . '" style="display: none">
             <h4 class="wpb_toggle">' . $title . '</h4>
             <div class="wpb_toggle_content" style="display: none;"> ' 
                 . '<div class="col-md-6">' 
